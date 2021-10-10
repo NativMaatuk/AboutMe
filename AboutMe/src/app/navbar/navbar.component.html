@@ -1,16 +1,23 @@
 
-  <nav class="navbar navbar-expand-lg navbar-light fix-top" style="height: 10%;">
+  <nav class="navbar navbar-expand-lg navbar-light fix-top" style="margin: 0;padding: 5;">
       <div class="container-fluid">
         <a class="navbar-brand" routerLink="home">Home</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler"
+                type="button" 
+                data-toggle="collapse" 
+                data-target="#navbarColor03" 
+                aria-controls="navbarColor03" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
     
-        <div class="collapse navbar-collapse" id="navbarColor03">
-          <ul class="navbar-nav me-auto">
+        <div class="collapse navbar-collapse" 
+             id="navbarColor03">
+          <ul class="navbar-nav me-auto hidden-md">
             <li class="nav-item">
               <a 
-               class="nav-link"
+               class="nav-link hidden-md"
                routerLink="my-projects">My Projects
               </a>
             </li>
@@ -19,6 +26,7 @@
       </div>
     </nav>
     <hr class="divied animationNav">
+
   <router-outlet></router-outlet>
   
   

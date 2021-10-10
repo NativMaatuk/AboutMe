@@ -6,11 +6,11 @@
     border: 12px solid rgb(85, 122, 16);
 }
 .nav-item:hover {
-    text-shadow: 1px 1px 1px lightgray;
-    border-radius: 7%;
-    border-bottom: solid 1px black;
-    border-top: solid 1px black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 0.3%;
+  text-shadow: 1px 1px 1px lightgray;
+  border-radius: 7%;
+  border-bottom: solid 2px black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   .navbar-brand:hover{
     padding: 0.3%;
@@ -34,3 +34,4 @@
     75%  { left:30%; top:10px;}
     100% { left:0%; top:0px;}
   }
+  /**/
