@@ -360,8 +360,6 @@ const routes = [
     { path: '', pathMatch: 'full', redirectTo: 'home' },
     { path: 'home', component: _main_main_component__WEBPACK_IMPORTED_MODULE_2__["MainComponent"] },
     { path: 'my-projects', component: _my_projects_my_projects_component__WEBPACK_IMPORTED_MODULE_3__["MyProjectsComponent"] },
-    { path: 'nativmaatuk.github.io/AboutMe/home', component: _main_main_component__WEBPACK_IMPORTED_MODULE_2__["MainComponent"] },
-    { path: 'nativmaatuk.github.io/AboutMe/my-projects', component: _my_projects_my_projects_component__WEBPACK_IMPORTED_MODULE_3__["MyProjectsComponent"] },
     { path: '**', component: _page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_4__["PageNotFoundComponent"] }
 ];
 class AppRoutingModule {
