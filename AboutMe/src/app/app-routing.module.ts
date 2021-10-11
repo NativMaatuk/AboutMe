@@ -8,6 +8,8 @@ const routes: Routes = [
   {path: '', pathMatch: 'full', redirectTo: 'home'},
   {path: 'home', component: MainComponent},
   {path: 'my-projects', component: MyProjectsComponent},
+  {path: 'https://nativmaatuk.github.io/AboutMe/home', component: MainComponent},
+  {path: 'https://nativmaatuk.github.io/AboutMe/my-projects', component: MyProjectsComponent},
   {path: '**', component:PageNotFoundComponent}
 ];
 
