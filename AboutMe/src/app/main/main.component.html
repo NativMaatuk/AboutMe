@@ -1,11 +1,29 @@
 <app-introduction></app-introduction>
-<div class="bg-dark" style="margin-top:100vh;">
-        <div class="d-flex bg-dark p-5" style="width: 80%;margin-left: auto;margin-right: auto;">
-            <img class=" rounded-circle" src="assets/images/profile.jpeg">   
+
+<div class="container">
+    <div class="row">
+        <div class="banner">
+            <img>
+            <div class="bg-text">  
+                <div>Hi I'm Nativ. I desing & build user interface</div>
+            </div>
+            <p>Learn more about me</p>
+            <i (click)="goInfo()" class="arrow down"></i>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="bg-dark">
+    <section id="info"></section> 
+   
+        <div class="d-flex bg-dark p-5" style="width: 80%;margin-left: auto;margin-right: auto; margin-top: 100vh;">
+            <img class=" rounded-circle" src="assets/images/profile.jpeg"> 
             <div class="boxInfo">
-                <h1 class="center">Nativ Maatuk</h1>
+                <h2 class="center p-1">Nativ Maatuk</h2>         
                 <hr>    
-                <h4>Practical Software Engineer</h4>
+                <h4 class="p-1">Practical Software Engineer</h4>
                 <ul>
                     <li>Self-learning and highly motivated to progress and develop professionally.</li>
                     <li>Work efficiently as part of a team.</li>

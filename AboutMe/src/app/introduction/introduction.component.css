@@ -142,9 +142,10 @@ p{
     }
   }
 
-  @media only screen and (min-device-width : 375px) and (max-device-width : 375px) 
-  and (min-device-height : 812px) and (min-device-height : 812px) 
- and (-webkit-device-pixel-ratio : 3) {
+  @media only screen
+      and (min-device-width: 375px) 
+      and (max-device-width: 898px) 
+      and (-webkit-min-device-pixel-ratio: 3)  {
     /* For phone: */
     p{
         color: white;

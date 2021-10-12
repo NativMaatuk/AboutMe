@@ -11,5 +11,7 @@ export class MainComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  goInfo(){
+    document.getElementById('info').scrollIntoView({behavior:'smooth'});
+  }
 }
