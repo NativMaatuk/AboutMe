@@ -199,7 +199,6 @@ p{
   /* For phone: */
   p{
       color: white;
-      position: absolute;
       top: 70%;
       width: 100%;
       text-align: center;
@@ -209,9 +208,8 @@ p{
   .arrow {
       border: solid white;
       border-width: 0 3px 3px 0;
-      display: inline-block;
+      cursor: pointer;
       padding: 3px;
-      position: absolute;
       top: 78%;
       left: 50%;
       padding: 10px;
@@ -229,7 +227,6 @@ p{
       color: white;
       font-weight: bold;
       border: 2px solid #f1f1f1;
-      position: absolute;
       top: 25%;
       left: 50%;
       transform: translate(-50%, -50%);
@@ -242,6 +239,8 @@ p{
       font-family: sans-serif;
     }
     .banner img{ 
+      padding: 0;
+      margin: 0;
       width: 100%;
       height: 100vh;
       background-image: url('../../assets/images/background2.jpg');
