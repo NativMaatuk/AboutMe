@@ -10,6 +10,7 @@ import { MyProjectsComponent } from './my-projects/my-projects.component';
 import { FooterComponent } from './footer/footer.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { IntroductionComponent } from './introduction/introduction.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +18,8 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     MainComponent,
     MyProjectsComponent,
     FooterComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    IntroductionComponent
   ],
   imports: [
     BrowserModule,
