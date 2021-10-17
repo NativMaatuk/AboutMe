@@ -1,3 +1,20 @@
-<div>
-    <div class="card">Need to add all Projects</div>
+
+<body>
+<div class="d-flex justify-content-center" style="top:20%;flex-wrap: wrap;">
+    <div *ngFor="let project of projects" style="margin-left: 2%;margin-top: 10%;">
+        <div  class="flip-card">
+            <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src="assets/images/{{project.image}}" alt="Avatar" style="width:300px;height:300px;">
+            </div>
+            <div class="flip-card-back">
+                <h1>{{project.name}}</h1> 
+                <p>{{project.intro}}</p> 
+                <p><a style="color: aliceblue;cursor: pointer;" href="https://nativmaatuk.github.io/ConfirmMe/">Link</a></p>
+            </div>
+            </div>
+        </div>
+    </div>
 </div>
+</body>
+
