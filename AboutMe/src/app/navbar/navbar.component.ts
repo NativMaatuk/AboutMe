@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -7,10 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
-  flag =false;
-  ngOnInit(): void {
-    
+  constructor() { 
+
   }
+  flag =false;
+  ngOnInit(): void {}
   
 }

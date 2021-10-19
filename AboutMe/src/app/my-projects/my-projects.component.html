@@ -2,7 +2,7 @@
 <body>
 <div class="fix-top d-flex justify-content-center p-2" style="flex-wrap: wrap;">
     <div *ngFor="let project of projects" style="margin-left: 2%;margin-top: 5%;">
-        <div  class="flip-card">
+        <div class="flip-card">
             <div class="flip-card-inner">
             <div class="flip-card-front">
                 <img src="assets/images/{{project.image}}" alt="Avatar" style="width:300px;height:300px;">
@@ -10,7 +10,7 @@
             <div class="flip-card-back">
                 <h1>{{project.name}}</h1> 
                 <p>{{project.intro}}</p> 
-                <p><a style="color: aliceblue;cursor: pointer;" href="{{project.link}}">Link</a></p>
+                <p><a style="color: slategray;cursor: pointer;" href="{{project.link}}">Link</a></p>
             </div>
             </div>
         </div>
