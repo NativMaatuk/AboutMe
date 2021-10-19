@@ -40,8 +40,14 @@ body{
 }
 
 .flip-card-back {
-  background-color: #2980b9;
-  color: white;
+  background-color: slategray;
+  color: black;
   transform: rotateY(180deg);
 }
-
+@media only screen
+    and (min-width: 375px) 
+    and (max-width: 898px) {
+    .fix-top{
+      margin-top: 10%;
+    }
+}
