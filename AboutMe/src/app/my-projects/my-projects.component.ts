@@ -14,6 +14,7 @@ export class MyProjectsComponent implements OnInit {
   projects:any[];
   ngOnInit(): void {
     this.projects = [
+      {name:'Zig Zag',link:'https://github.com/NativMaatuk/Simon-Says',intro:'3D Game for PC, develop on C# with Unity-2018.3',image:'Zig-Zag.png'},
       {name:'ConfirMe',link:'https://nativmaatuk.github.io/ConfirmMe/',intro:'Web App developed on Angular, DB - FireBase, to get control panel page enter "012" in phone input area and submit. responsive to PC and Phone',image:'confirmeimg01.png'},
       {name:'Tic-Tac-Toe',link:'https://github.com/NativMaatuk/Tic-Tac-Toe',intro:'PC Game for Windows, Developed on JAVA uses JavaFX, need JDK11 to run.',image:'tic-tac-toeimg01.png'},
       {name:'Minesweeper',link:'https://github.com/NativMaatuk/Minesweeper',intro:'PC Game for Windows, Developed on JAVA uses JavaFX, need JDK11 to run.',image:'Minesweeperimg01.png'},
